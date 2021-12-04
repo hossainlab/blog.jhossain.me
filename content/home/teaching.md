@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Lead Organizer & Instructor"
   company = "Health Research ToolBox: A Step by Step Guide for Beginners"
-  company_url = "https://chiralbd.netlify.app/teaching/research-toolbox/program-intro/"
+  company_url = "https://hrt.chiralbd.org/"
   location = "Dhaka, Bangladesh"
   date_start = "2021-08-01"
   date_end = ""
@@ -29,11 +29,13 @@ date_format = "Jan 2006"
   The Center for Health Innovation, Research, Action, and Learning - Bangladesh (CHIRAL Bangladesh) runs different health data analytics, bioinformatics, and genomic data science programs. Health Research ToolBox: A Step by Step Guide for Beginners is one of them; in this program, the participants will learn how to handle an end-to-end research project, literature search, and manuscript writing. The course will start in September 2021.
 
   Courses:
-  * [Introduction to Health Research	]()
-  * [Fundamentals of Statistics for Research]()
-  * [KoBo ToolBox for Data Collection]()
-  * [Introduction to SPSS]()
-  * [Academic Writing with LaTeX]()
+  * [HRT101: Introduction to Health Research]()
+  * [HRT101: Introduction to Health Research]()
+  * [HRT104: Tools for Data Collection]()
+  * [HRT105: Introduction to R for Health Data Analysis]()
+  * [HRT106: Academic Writing with LaTeX]()
+  * [HRT107: Tools and Softwares for Research]()
+  * [HRT108: Research Project]()
   """
 [[experience]]
   title = "Lead Organizer & Instructor"
