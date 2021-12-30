@@ -1,9 +1,9 @@
 {
-    "path" : "~/WebSites/blog.jhossain.me/themes",
-    "sortOrder" : [
+    "path": "~/WebSites/resume/content/publication/covid19-vaccination-2021",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }

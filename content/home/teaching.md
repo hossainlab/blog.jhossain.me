@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 4  # Order that this section will appear.
+weight = 5  # Order that this section will appear.
 
 title = "Teaching"
 subtitle = ""
@@ -23,12 +23,12 @@ date_format = "Jan 2006"
   company = "Health Research ToolBox: A Step by Step Guide for Beginners"
   company_url = "https://hrt.chiralbd.org/"
   location = "Dhaka, Bangladesh"
-  date_start = "2021-08-01"
+  date_start = "2022-01-01"
   date_end = ""
   description = """
-  The Center for Health Innovation, Research, Action, and Learning - Bangladesh (CHIRAL Bangladesh) runs different health data analytics, bioinformatics, and genomic data science programs. Health Research ToolBox: A Step by Step Guide for Beginners is one of them; in this program, the participants will learn how to handle an end-to-end research project, literature search, and manuscript writing. The course will start in September 2021.
+This course will give students a foundation in research principles and practice, mainly applied to public health. In addition, we will have weekly lectures covering various topics, including research methodology, data collection methods, statistics, R programming, data visualization(human perception, color theory, principles of visual design), etc.
 
-  Courses:
+  Modules:
   * [HRT101: Introduction to Health Research]()
   * [HRT101: Introduction to Health Research]()
   * [HRT104: Tools for Data Collection]()
@@ -37,33 +37,55 @@ date_format = "Jan 2006"
   * [HRT107: Tools and Softwares for Research]()
   * [HRT108: Research Project]()
   """
+  
 [[experience]]
   title = "Lead Organizer & Instructor"
-  company = "Health Data Analytics"
-  company_url = "https://chiralbd.netlify.app/teaching/py4hda"
+  company = "Introduction to Genomic Data Science with R"
+  company_url = "https://igdc.chiralbd.org/"
+  location = "Dhaka, Bangladesh"
+  date_start = "2022-01-01"
+  date_end = ""
+  description = """
+This course will give students a foundation in genomic research principles and practice, mainly applied to public health. In addition, we will have weekly lectures covering various topics, including research methodology, data collection methods, statistics, R programming, data visualization(human perception, color theory, principles of visual design), etc.
+
+  Modules:
+  * [IGDC101: Introduction to Genomic Data Science]()
+  * [IGDC102: Introduction to R]()
+  * [IGDC102: Introduction to R]()
+  * [IGDC105: Introduction to Bioconductor for Genomic Data Science]()
+  * [IGDC106: Introduction to RNA-Seq Analysis with Bioconductor]()
+  * [IGDC107: Statistics for Genomic Data Science]()
+  * [IGDC108: Reporting with R Markdwon]()
+  * [IGDC109: Version Control with Git & RStudio]()
+  * [IGDC110: Final Project]()
+  """
+  
+
+[[experience]]
+  title = "Lead Organizer & Instructor"
+  company = "Python for Health Data Analytics"
+  company_url = "https://chirlabd.org/teaching/py4hda"
   location = "Dhaka, Bangladesh"
   date_start = "2021-07-01"
-  date_end = ""
+  date_end = "2021-08-01"
   description = """
   The course covers the fundamentals of Python programming and data analysis workflow. We will focus on data cleaning, management, and visualizations through a case study approach. We also focus on working with statistical problems, both descriptive and inferential techniques in health research. The basics of statistical model building and evaluating healthcare perspectives will be used in this course.
 
-  Courses:
-  * [Python for Health Data Analytics](https://github.com/chiralcourses/PY4HDA)
-    """
+"""
 
 
 
 [[experience]]
   title = "Lead Organizer & Instructor"
-  company = "Scientific Computing for Biologists"
+  company = "Introduction to Scientific Computing for Biologists"
   company_url = "https://chiralbd.netlify.app/teaching/programs/"
   location = "Dhaka, Bangladesh"
   date_start = "2020-06-01"
-  date_end = ""
+  date_end = "2020-10-01"
   description = """
   Scientific Computing for Biologists is an introductory course organized by Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL) with applications to Health Data Science, Genomic Data Science, Bioinformatics, and more. Students will learn Python, R programming, Julia, Statistics and get practical experience building public health and biological data analysis pipelines.
 
-  Courses:
+  Modules:
   * [Introduction to Linux for Biologists](https://github.com/chiralcourses/ISCB20.01)
   * [Scientific Typesetting(Markdown, LaTex)](https://github.com/chiralcourses/ISCB20.02)
   * [Version Control with Git & Github](https://github.com/chiralcourses/ISCB20.03)
