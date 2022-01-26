@@ -21,10 +21,10 @@
   url = "#teaching"  # Widget Page folder name.
   weight = 3  # Position of the link in the navigation bar.
 
-[[main]]
-name = "Projects"
-url = "#projects"
-weight = 4
+#[[main]]
+#name = "Projects"
+#url = "#projects"
+#weight = 4
 
 #
 # [[main]]
