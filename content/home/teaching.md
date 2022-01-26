@@ -37,6 +37,17 @@ This course will give students a foundation in research principles and practice,
   * [HRT107: Tools and Softwares for Research]()
   * [HRT108: Research Project]()
   """
+
+[[experience]]
+  title = "Lead Organizer & Instructor"
+  company = "Python for Life Sciences - A Step by Step Guide for Life Scientists"
+  company_url = "https://github.com/hossainlab/PY4LS"
+  location = "Dhaka, Bangladesh"
+  date_start = "2022-01-01"
+  date_end = ""
+  description = """
+Python for Life Sciences(PY4LS) is an introductory course on Python with applications in life sciences. The PY4LS will provide the basics to advance knowledge about Python
+"""
   
 [[experience]]
   title = "Lead Organizer & Instructor"
