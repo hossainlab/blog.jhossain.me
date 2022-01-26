@@ -1,0 +1,209 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[utf8]{inputenc}
+%\usepackage{booktabs}
+%\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+
+%-------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%-------------------------------------------------------------------------------------
+\firstname{Md.Jubayer} % Your first name
+\familyname{Hossain} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+%\address{Department of CSE}{Indian Institute of Technology xyz}
+%\mobile{(+91) 0000000, (+91) 0000000}
+%\fax{(000) 111 1113}
+%\social{github}{stefano-bragaglia}
+
+\email{b150605021@mib.jnu.ac.bd} 
+\homepage{jhossain.netlify.app/}{Personal Website}
+
+% social link \faGithub, \faSkype, \faLinkedin,\faStackExchange, and \faStackOverflow
+\extrainfo{
+    \faGithub\href{https://github.com/hossainlab}{Github} \quad \\ 
+    \faLinkedin\href{https://www.linkedin.com/in/jubayer28/}{Linkedin} \quad
+    }
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+\usepackage{multibbl}
+\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+\begin{document}
+
+\makecvtitle % Print the CV title
+%-------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------------
+
+\section{Academic Credentials}
+\cventry{2016--2019}{Bachelor of Science, Microbiology}{Jagannath University}{Dhaka}{}
+{CGPA: 3.15/4.00}  % Arguments not required can be left empty
+\cventry{2019--Present}{Master of Science, Microbiology}{Jagannath University}{Dhaka}{}{}
+
+%-------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%-------------------------------------------------------------------------------------
+\section{Teaching Experience}
+%\cventry{year--year}{degree or job title}{institution or employer}{city}{grade}{description}
+
+\cventry{2021--Present}{Lead Organizer \& Instructor}{	\textcolor{blue}{\href{https://chiralbd.netlify.app/teaching/research-toolbox/program-intro/} {Health Research ToolBox: A Step by Step Guide for Beginners}}}{}{}{
+	The Center for Health Innovation, Research, Action, and Learning - Bangladesh (CHIRAL Bangladesh) runs different health data analytics, bioinformatics, and genomic data science programs. Health Research ToolBox: A Step by Step Guide for Beginners is one of them; in this program, the participants will learn how to handle an end-to-end research project, literature search, and manuscript writing.
+}
+
+\cventry{2021--Present}{Lead Organizer \& Instructor}{	\textcolor{blue}{\href{https://chiralbd.netlify.app/teaching/py4hda/}{Python for Health Data Analytics}}}{}{}{
+	The course covers the fundamentals of Python programming and data analysis workflow. We will focus on data cleaning, management, and visualizations through a case study approach. We also focus on working with statistical problems, both descriptive and inferential techniques in health research. The basics of statistical model building and evaluating healthcare perspectives will be used in this course.
+}
+
+\cventry{2020--Present}{Lead Organizer \& Instructor}{	\textcolor{blue}{\href{https://github.com/chiralcourses}{Introduction to Scientific Computing for Biologists}}}{}{}{
+	Introduction to Scientific Computing for Biologists is an introductory course organized by Center for Health Innovation, Research, Action and Learning--Bangladesh (CHIRAL Bangladesh). My team members and I design this course to help  undergrad students interested in genomics and public health research. Here I taught the basics of Python, R programming, Biostatistics, and Bioconductor.}
+\cventry{2016 -- 2019}{Instructor}{	\textcolor{blue}{\href{https://ronit.edu.bd/}{Whitehope}}}{}{}{I provided comprehensive tutoring in Physics and Chemistry to the students of 10th, 11th, and 12th grade.}
+
+
+%-------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%-------------------------------------------------------------------------------------
+\section{Publication -- Under Review}
+\cventry{2020}{Syeda Tasneem Towhid, \textbf{Md. Jubayer Hossain}, Sumona Akter, Md. 
+Atik Shariar Sammo}{}{Perception of Students on Antibiotic Resistance 
+and Prevention: An internet-based community case study from  Dhaka,Bangladesh}{(In \textit{\color{blue}\textbf{\href{https://www.frontiersin.org/journals/public-health}{Frontiers in Public Health Health Economics)}}}}{}
+
+\section{Research Projects \& Working Papers}
+\cventry{2020--Present}{\textbf{\href{https://chiralbd.netlify.app/project/antibiotics-resistance/}{Antibiotic Resistance}}}{}{}{}{To study the perception of the public about antibiotic consumption and the rise of antibiotic resistance with the view to developing an effective community engagement strategy for antimicrobial stewardship.
+} 
+\cvitem{Principal Investigator:}{\textbf{Dr. Syeda Tasneem Towhid}, \textit{Assistant Professor, Department of Microbiology}, Jagannath University, Dhaka-1100 ({\Colorhref{https://chiralbd.netlify.app/member/syedatasneem_towhid/} {\textit{Website}}})} 
+
+% Item 1
+%\cventry{2020}{Syeda Tasneem Towhid, \textbf{Md. Jubayer Hossain}, Sumona Akter, Md. 
+%	Atik Shariar Sammo}{}{Perception of Students on Antibiotic Resistance 
+%	and Prevention: An internet-based community case study from  Dhaka,Bangladesh}{(In \textit{\color{blue}\textbf{\href{https://www.frontiersin.org/journals/public-health}{Frontiers in Public Health Health Economics)}}}}{}
+% Item 2
+\cventry{2021}{Syeda Tasneem Towhid, \textbf{Md. Jubayer Hossain}, Sumona Akter, Md. 
+	Atik Shariar Sammo}{Public Perception on the Spread of Antibiotic Resistance in Bangladesh}{\textbf{\textit{(In Preparation)}}}{}{}
+
+%-------------------------------- Antibiotics End------------------------------------
+
+%--------------------------------Diabetes Start--------------------------------------
+% Project Diabetes 
+\cventry{2021--Present}{\textbf{\href{https://chiralbd.netlify.app/project/diabetes/}{Diabetes}}}{}{}{}{Raise diabetes awareness by speaking out to improve education, access to quality care, quality of life, prevention of complications and type 2 diabetes, and to help end diabetes discrimination and stigma.}
+
+% Principal Investigator
+\cvitem{Principal Investigator:}{\textbf{Dr.Syeda Tasneem Towhid}, \textit{Assistant Professor, Department of Microbiology}, Jagannath University, Dhaka-1100 ({\Colorhref{https://chiralbd.netlify.app/member/syedatasneem_towhid/} {\textit{Website}}})}
+% Item 1
+\cventry{2020}{Syeda Tasneem Towhid, Ph.D, Md. Jubayer Hossain, Sumona Akter, Tilottoma Roy, Muhibullah Shahjahan, Tanjum Ahmed Nodee, Bithi Akter}{}{ Self Management And Knowledge of Diabetic Patients in Bangladesh and the Prevalence rate of Diabetes}{(Target Journal: \textit{\textbf{Asian Pacific Journal of Tropical Biomedicine)}}}{}
+
+% Item 2 
+\cventry{2019}{Dr. Md. Kamrujjaman, Alamgir Hossain Tanjim, Md. Jubayer Hossain}{}{A survey on the general concept of diabetes among students of different universities in Bangladesh}{(Target Journal: \textit{\textbf{Asian Pacific Journal of Tropical Biomedicine)}}}{}
+
+% ----------------------------------------Diabetes End--------------------------------
+
+% --------------------------------------Thalassemia Start----------------------------
+\cventry{2021--Present}{\textbf{\href{https://chiralbd.netlify.app/project/thalassemia/}{Thalassemia}}}{}{}{}{
+To provide accurate and up-to-date information on thalassemia research and treatment to patients and caregivers and assist patients and their families in navigating the health-care system, as well as to act as advocates for themselves and others.
+}
+\cvitem{Principal Investigator :}{\textbf{Dr.Mohammad Ariful Islam}, \textit{Associate Professor, Department of Microbiology}, Jagannath University, Dhaka-1100 ({\Colorhref{https://chiralbd.netlify.app/member/ariful_islam/} {\textit{Website}}})}
+% Item 1 
+\cventry{2021}{Md.Ariful Islam, Md. Jubayer Hossain, Rubaiya Gulshan, Sumaiya Akter Mukta, Md. Sharif Miah, Wahid Arafat}{}{Knowledge and Attitudes of Thalassemia among Public University Students in Bangladesh}{(Target Journal: \textit{\textbf{Orphanet Journal of Rare Diseases)}}}{} 
+% Item 2 
+\cventry{2021}{Md. Ariful Islam, Ph.D, Md. Md.Jubayer Hossain, Rubaiya Gulshan, Sumaiya Akter Mukta, Md. Sharif Miah, Wahid Arafat}{}{Quality of Life among Bangladeshi Patients with Thalassemia using the SF-36 Questionnaire}{(Target Journal:\textbf{Orphanet Journal of Rare Diseases)}}{}
+% --------------------------Thalassemia End-------------------------------------------
+\cventry{2020--Present}{\textbf{\href{https://chiralbd.netlify.app/project/covid19/}{COVID-19}}}{}{}{}{The research purpose is to provide a list of priority areas for work and health research that address evidence gaps and emerging evidence needs in the context of global pandemics in general and COVID19 in Bangladesh in particular.}
+\cvitem{Principal Investigator :}{\textbf{Sabia Sultana}, \textit{Assistant Professor, Department of Microbiology}, Jagannath University, Dhaka-1100 ({\Colorhref{https://chiralbd.netlify.app/member/sabia_sultana/} {\textit{Website}}})}
+
+\cventry{2020}{Md. Jubayer Hossain, Atik Shahriar Sammo, Bithi Akter, Tanjum Ahmed Nodee,Sanjida Akter Sathy, Ema Akter, Susmita Jahan Bristy}{}{Perception and the Impact of Distance Learning on Students from the Science Faculty at Jagannath University, Dhaka during COVID-19: An Exploratory Study}{(Target Journal: \textit{\textbf{Global Public Health)}}}{}
+
+\cventry{2021}{Md. Jubayer Hossain, Wahid Arafat, Atik Shahriar Sammo, Bithi Akter, Tanjum Ahmed Nodee}{}{Perception and the Impact of the Distance Learning on Bangladeshi High School Student’s Health during COVID-19 Pandemic}{(Target Journal: \textit{\textbf{Global Public Health)}}}{}
+
+\section{Health Data Analytics Projects}
+\cventry{2020}{Bangladesh COVID-19 Community Mobility Reports}{}{\color{blue}\href{https://github.com/hossainlab/Community_Mobility}{[Github]}}{\color{blue}\href{https://share.streamlit.io/hossainlab/community_mobility/main/app.py}{[Dashboard]}}{}
+
+\cventry{2020}{Mapping the Coronavirus Cases}{}{\color{blue} \href{https://github.com/hossainlab/Mapping_COVID-19}{[Github]}}{}{}
+\cventry{2021}{Heart Disease Analysis and Prediction Using Machine Learning}{}{\color{blue} \href{https://github.com/hossainlab/Heart_Study}{[Github]}}{}{}
+
+\cventry{2021--Under Development}{CHIRAL Disease Detection System(CHIRAL-D)}{}{\color{blue} \href{https://github.com/hossainlab/CHIRAL-DDS}{[Github]}}{\color{blue}\href{https://share.streamlit.io/hossainlab/chiral-dds/main/app.py}{[Dashboard]}}{}
+
+
+\section{Research Internets}
+\cvitem{Public Health}{Quality of Life, Physical Activity, Thalassemia} 
+\cvitem{Environmental Health}{Air Quality, Vector Borne Diseases(VBDs), Climate Change} 
+\cvitem{GIS \& Remote Sensing}{Road Traffic-Associated Mortality, IoT-based Personal Monitoring} 
+
+%-------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------------
+\section{Skills}
+\cvitem{Programming Language}{Python, R, Julia, JavaScript, SQL} 
+\cvitem{Data Science Packages}{NumPy, Pandas, Matplotlib, Seaborn, Plotly, Scikit-learn, researchpy, dplyr, ggplot2, Bioconductor}
+\cvitem{GIS Packages}{GeoPandas, xarray, Geoplot}
+\cvitem{Version Control}{Git \& Github} 
+\cvitem{Statistical Packages}{SPSS, Microsoft Excel}
+\cvitem{Operating System}{Windows, Linux, Raspbian}
+\cvitem{Survey Tools}{KoboToolBox, Google Forms} 
+\cvitem{Typesetting Research ToolBox}{\LaTeX, Mendeley, Turnitin, Diagram.net}
+\cvitem{Bioinformatics Packages}{Biopython, Scikit-bio, BioPandas, Biotte, RDkit}
+
+\section{Affiliations}
+\cventry{2020--Present}{Founder \& Management Lead}{	\textcolor{blue}{\href{https://scicomforbio.github.io/}{Center for Health Innovation, Research, Action, and Learning--Bangladesh (CHIRAL Bangladesh)}}}{}{}{The main focus of this group is to solve healthcare problems with the help  of data in Bangladesh. The primary responsibilities include designing courses, data analysis, and team management.}
+
+\cventry{2017--Present}{Founder}{	\textcolor{blue}{\href{https://scicomforbio.github.io/}{Pounopunik}}}{}{}{The Pounopunik is a science organization at Sreepur. This organization aims to arrange a science olympiad and other scientific events for primary, secondary, and higher secondary students.}
+
+\section{Linguistic Proficiency}
+\cvitem{English}{Fluent Working Proficiency}
+\cvitem{Bangla}{Native Language}
+
+
+\section{Extra Curricular Activities}
+\cventry{2014--Present}{Founding Member}{\textcolor{blue}{\href{}{Kanthokanon}}}{Sreepur, Magura}{}{Kanthokanon is a poetry recitation organization at Sreepur. Here I am an active member. I learned Bangla pronunciation and poem recitation. I performed in 3 programs and won 2 awards from "Victory Day Poem Recitation Competition-2014.}
+
+\cventry{March 2013}{Participant}{Recitation, Presentation and News Reading 
+	Workshop}{Magura}{}{Kanthobithy Magura arranged the workshop in 2013. Kanthobithy Magura is the first poetry recitation organization in Magura.}
+
+\section{References}
+\begin{tabular}{lr}
+% Referee 1
+\begin{minipage}[t]{3in}
+	\textbf{Syeda Tasneem Towhid, Ph.D}\\
+	\textit{Assistant Professor \\ Department of Microbiology }\\
+	Jagannath University, Dhaka-1100\\
+	\Letter\ \href{mailto:towhidst@mib.jnu.ac.bd}{towhidst@mib.jnu.ac.bd}
+\end{minipage}
+&
+% Referee 2
+\begin{minipage}[t]{3in}
+	\textbf{Mohammad Ariful Islam, Ph.D}\\
+	\textit{Associate Professor \\ Department of Microbiology }\\
+	Jagannath University, Dhaka-1100\\
+	\Letter\ \href{mailto:ariful@mib.jnu.ac.bd}{ariful@mib.jnu.ac.bd}
+\end{minipage}
+
+\\
+\end{tabular}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

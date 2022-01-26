@@ -19,8 +19,8 @@ bio: I am a Microbiology Master’s student at Jagannath University and a Health
 
 interests:
 - Public Health
-- GIS and Remote Sensing in Public Health
-- Genomic Epidemiology
+- Mental Health 
+- Quality of Life
 
 education:
   courses:
@@ -96,4 +96,4 @@ Python is my primary language for data analysis and machine learning. I also hav
 
 This page highlights my teaching and research projects. Please [reach out](https://allmylinks.com/jhossain28) if you want to collaborate or have questions.
 
-{{< icon name="download" pack="fas" >}}  {{< staticref "media/resume.pdf" "newtab" >}}Resumé{{< /staticref >}}
+{{< icon name="download" pack="fas" >}}  {{< staticref "media/JHossain_CV/CV_JHossain.pdf" "newtab" >}}Resumé{{< /staticref >}}

@@ -1,0 +1,302 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[none]{hyphenat}
+% only for pdflatex
+% \input{glyphtounicode}
+\usepackage{ragged2e}
+\raggedbottom
+
+% fontawesome
+\usepackage{fontawesome5}
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underilne
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+%% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting - serif
+% \titleformat{\section}{
+%   \vspace{2pt} \scshape \raggedright\large % header section
+% }{}{0em}{}[\color{black} \titlerule \vspace{-5pt}]
+
+% TODO EBSERIES
+% sans serif sections
+\titleformat {\section}{
+    \bfseries \vspace{2pt} \raggedright \large % header section
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+% only for pdflatex
+% Ensure that generate pdf is machine readable/ATS parsable
+% \pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\ % top row of resume entry
+      \textit{#3} & {\color{dark-grey} \small #4}\\ % second row of resume entry
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% CHANGED default leftmargin  0.15 in
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\setlength{\parskip}{0pt}
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Md. Jubayer Hossain} \\ \vspace{5pt} 
+    % Email
+    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{\url{b150605021@mib.jnu.ac.bd}} $|$
+    % Linkedin
+	\hspace{1pt} \faLinkedin \hspace{2pt} \texttt{\href{https://www.linkedin.com/in/jubayer28/}{Linkedin}} 
+    \hspace{1pt} $|$ 
+    \hspace{1pt} \faGithub \hspace{2pt} \texttt{\href{https://github.com/hossainlab}{Github}} \hspace{1pt} $|$
+    \hspace{1pt} \faGlobe \hspace{2pt}\texttt{\href{http://jhossain.com/}{Website}}
+    \\ \vspace{-3pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{ACADEMIC CREDENTIALS}
+\resumeSubHeadingListStart
+% Bachelor 
+\resumeSubheading
+{Bachelor of Science in Microbiology}{Jan. 2016 -- Jan. 2019}
+{Jagannath University}{Dhaka, Bangladesh}
+%\resumeItemListStart
+%\resumeItem {\textbf{Coursework}: Biostatistics, Public Health and Hygiene,  Bioinformatics-I, Bioinformatics-II}
+%\resumeItem 
+%{\textbf{Project}: Bioinformatics Approach for Profiling Antibiotic Resistance genes from Metagenomic DNA Sequence. \href{https://github.com/hossainlab/ARGs}{\myuline{Github}}}
+%\resumeItemListEnd
+
+% Masters 
+\resumeSubheading
+{Master of Science in Microbiology}{Jan. 2020 -- Present}
+{Jagannath University}{Dhaka, Bangladesh}
+\resumeSubHeadingListEnd
+
+
+%------------------ Research--------------------- 
+
+\section{RESEARCH}
+% IN REVIEW 
+\textbf{Under Review}
+\justifying
+\resumeItemListStart
+% PAPER-1
+\resumeItem{Syeda Tasneem Towhid, Ph.D, \textbf{Md. Jubayer Hossain}, Sumona Akter, Md. Atik Shariar Sammo; \textit{``Perception of Students on Antibiotic Resistance and Prevention: An Online,Community-Based Case Study from Dhaka,Bangladesh``} (\href{}{\color{blue} \myuline{Journal of Prevention in Practice}})}
+\resumeItemListEnd
+
+\raggedleft
+\textbf{Working Papers}
+\justifying
+\resumeItemListStart
+% PAPER-2
+\resumeItem{Syeda Tasneem Towhid, Ph.D, \textbf{Md. Jubayer Hossain}, Sumona Akter, Tilottoma Roy, Muhibullah Shahjahan, Tanjum Ahmed Nodee, Bithi Akter; \textit{``Self Management And Knowledge of Diabetic Patients in Bangladesh and the Prevalence rate of Diabetes``}}
+
+% PAPER-3
+\resumeItem{Md.Ariful Islam, Ph.D, \textbf{Md. Jubayer Hossain}, Rubaiya Gulshan, Sumaiya Akter Mukta, Md. Sharif Miah; \textit{``Knowledge and Attitudes of Thalassemia among Public University Students in Bangladesh``}}
+% PAPER-4
+\resumeItem{Md. Ariful Islam, Ph.D, \textbf{Md. Jubayer Hossain}, Rubaiya Gulshan, Sumaiya Akter Mukta, Md. Sharif Miah, Md. Wahidul Islam; \textit{``Quality of Life among Bangladeshi Patients with Thalassemia using the SF-36 Questionnaire``}}
+% PAPER-5
+\resumeItem{Md.Kamrujjaman,Ph.D, Alamgir Hossain Tanjim, \textbf{Md. Jubayer Hossain;} \textit{``General Concept of Diabetes among Villagers of Different Districts in Bangladesh: A Cross-sectional Study``}}
+% PAPER-6 
+\resumeItem{Sabia Sultana, \textbf{Md.Jubayer Hossain}, Atik Shahriar Sammo, Bithi Akter, Tanjum Ahmed Nodee, Sanjida Akter Sathy, Ema Akter, Susmita Jahan Bristy;  \textit{``Perception and the Impact of Distance Learning on Students from the Science Faculty at Jagannath University, Dhaka during COVID-19: An Exploratory Study``}} 
+
+% PAPER-7 
+\resumeItem{Sabia Sultana, \textbf{Md.Jubayer Hossain}, Wahid Arafat, Atik Shahriar Sammo, Bithi Akter, Tanjum Ahmed Nodee; \textit{``Perception and the Impact of the Distance Learning on Bangladeshi High School Student’s Health during COVID-19 Pandemic``}}
+
+\resumeItemListEnd
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\resumeItemListStart
+\resumeItem{Heart Disease Analysis and Prediction Using Machine Learning. \href{https://github.com/hossainlab/Heart_Study}{\myuline{[Github]}}}
+
+\resumeItem{Calories Burn Prediction using Machine Learning. \href{https://github.com/hossainlab/Calories_Burnt}{\myuline{[Github]}}}
+
+\resumeItem{Hepatitis Mortality Prediction using Machine Learning. \href{https://github.com/hossainlab/Hepatitis_Mortality}{\myuline{[Github]}}}
+
+\resumeItem{Soaking temperature affected the length increase in beans (\textit{Phaseolus vulgaris}) when they were soaked in water for 12 hours. \href{https://github.com/hossainlab/Hepatitis_Mortality}{\myuline{[Github]}}}
+
+\resumeItemListEnd
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{COMPUTATIONAL SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+	\small{\item{
+			\textbf{Programming Languages:} {Python, R, SQL, Julia, JavaScript}\vspace{2pt} \\ 
+			\textbf{Statistical Softwares:} {SPSS, Google Sheets} \\ 
+			\textbf{Survey Tools:} {KoboToolBox, Google Forms} \\ 
+			\textbf{Tools \& Softwares:} {\LaTeX, UNIX, Git, Github}
+			
+	}}
+\end{itemize}
+
+
+% Teaching 
+\section{TEACHING}
+\resumeSubHeadingListStart
+% Bachelor 
+\resumeSubheading
+{Introduction to Scientific Computing for Biologist}{Nov. 2020 -- Jan. 2021}
+{\href{https://chiralbd.netlify.app/teaching/scb/}{\myuline{Course Website}}}{Lead Organizer \& Instructor}
+\resumeItemListStart
+\resumeItem {Fundamental course on scientific computing for biologists. I taught Fundamentals of Biostatistics, Python, R Programming, Bioconductor, UNIX, Git, Github, and \LaTeX}
+\resumeItemListEnd
+ 
+\resumeSubheading
+{Python for Health Data Analytics}{July 2021 -- July 2021}
+{\href{https://chiralbd.netlify.app/teaching/py4hda/}{\myuline{Course Website}}}{Lead Organizer \& Instructor}
+\resumeItemListStart
+\resumeItem {Fundamentals course on health data analytics including data collection, data cleaning, data visualization, linear regression and logistic regression model building using Python.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Health Research ToolBox -- A step by step guide for beginners}{Start on December 2021}
+{\href{https://chiralbd.netlify.app/teaching/research-toolbox/program-intro/}{\myuline{Course Website}}}{Lead Organizer \& Instructor}
+\resumeItemListStart
+\resumeItem {Fundamentals course on health data analytics including data collection, data cleaning, data visualization, linear regression and logistic regression model building using Python.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+% Teaching 
+\section{AFFILIATIONS}
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://chiralbd.netlify.app/}{Center for Health Innovation, Research, Action, and Learning --Bangladesh}}{June 2020 -- Present}
+{Founder \& Management Lead}{}
+\resumeItemListStart
+\resumeItem{The main focus of this group is to solve healthcare problems with the help  of data in Bangladesh. The primary responsibilities include designing courses, data analysis, and team management.}
+\resumeItemListEnd
+
+
+\resumeSubheading
+{\href{https://chiralbd.netlify.app/}{Whitehope Academy}}{July 2016 -- June 2020}
+{Instructor}{}
+\resumeItemListStart
+\resumeItem{I provided comprehensive tutoring in Physics and Chemistry to the students of 10th, 11th, and 12th grade.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://chiralbd.netlify.app/}{Bio-Bio-1}}{July 2017 -- Present}
+{Team Member}{}
+\resumeItemListStart
+\resumeItem{I was an active participant in their weekly study circle and learned a lot from them; especially, I learned bioinformatics techniques with the help of Python.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+\section{REFERENCES}
+\begin{tabular}{lr}
+	% Referee 1
+	\begin{minipage}[t]{3in}
+		\textbf{Syeda Tasneem Towhid, Ph.D}\\
+		\textit{Assistant Professor \\ Department of Microbiology }\\
+		Jagannath University, Dhaka-1100\\
+		\Letter\ \href{mailto:towhidst@mib.jnu.ac.bd}{towhidst@mib.jnu.ac.bd}
+	\end{minipage}
+	&
+	% Referee 2
+	\begin{minipage}[t]{3in}
+		\textbf{Mohammad Ariful Islam, Ph.D}\\
+		\textit{Associate Professor \\ Department of Microbiology }\\
+		Jagannath University, Dhaka-1100\\
+		\Letter\ \href{mailto:ariful@mib.jnu.ac.bd}{ariful@mib.jnu.ac.bd}
+	\end{minipage}
+	
+	\\
+\end{tabular}
+%-------------------------------------------
+\end{document}

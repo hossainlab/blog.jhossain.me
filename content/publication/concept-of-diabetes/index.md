@@ -67,22 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-## Declaration
-This survey focuses on the attitude of students from different universities of Bangladesh
-towards diabetes and their daily activities, food habits and sleeping pattern. Your kind
-participation in this survey will help our research. This survey is expected to be spontaneous.
-You are requested to fill the given questions based on your won knowledge. All the information
-collected for this survey is highly confidential and will be used for research purpose only.
-
-## Aims
-- To assess the knowledge and attitude of diabetes among public university students. 
-
-
-
-## Survey Design
-Dr. Md. Kamrujjaman <br>
-Associate Professor <br>
-Department of Mathematics <br>
-University of Dhaka, Bangladesh <br>
-Email: kamrujjaman@du.ac.bd <br>
