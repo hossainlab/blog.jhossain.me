@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = "Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh) "
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Hey there! This is Jubayer Hossain. I am a Graduate student at the Department of Microbiology at Jagannath University, Dhaka. I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research. I am the founder of Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh), a non-profit organization dedicated to health research to improve lives in Bangladesh."
 
 ############################
 ## Site Features
@@ -124,10 +124,10 @@ address = {street = "7/A", city = "Dhaka", region = "Azimpur", postcode = "1211"
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = "admin.jpg"
+sharing_image = "share.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "@JHossain28"
+twitter = "@Jhossain_28"
 
 ############################
 ## Regional Settings
