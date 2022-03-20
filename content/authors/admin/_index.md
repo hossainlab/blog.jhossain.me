@@ -6,19 +6,22 @@ title: Jubayer Hossain
 superuser: true
 
 # Role/position
-role: Founder & Instructor
+role: Research Intern
+
 
 # Organizations/Affiliations
 organizations:
-- name: CHIRAL Bangladesh
-  url: "chiralbd.netlify.app/"
+- name: icddr,b
+  url: "icddrb.org/"
+- name: Founder & Instructor,CHIRAL Bangladesh
+  url: "chiralbd.org/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Microbiology Master’s student at Jagannath University and a Health Data
-  The Health Data Research Organization (HDRO) is a non-profit organization dedicated to scientific research and dissemination using primary and secondary sources and third-party data. Students and young professionals with expertise in biological science and health science run the organization, supervised by university faculty members in the life sciences.
+bio: Currently, I am working as an intern at the Health System and Population Studies Division, icddr,b. I am the founder of CHIRAL Bangladesh, a non-profit organization dedicated to health research to improve lives in Bangladesh. I graduated from the Department of Microbiology at Jagannath University Dhaka.
 
 interests:
 - Public Health
+- Health Data Science 
 - Mental Health 
 - Quality of Life
 
