@@ -1,5 +1,5 @@
 ---
-title: "Interventions to Improve the Mental Health among Intimate Partner Violence Survivors in Low and Middle-income countries: A Systematic Review and Meta-analysis"
+title: "Interventions to Improve the Mental Health among Intimate Partner Violence Survivors in Low and Middle-income countries: A Systematic Review Protocol"
 date: 2022-05-25
 publishDate: 2022-25-05T20:13:52.623034Z
 authors: ["Dr. Kamrun Nahar Koly","Dr K M Saif-Ur-Rahman", "Jobaida Saba","Md. Jubayer Hossain", "Dr. Anan Nisat Nabela Hossain", "Mansura Islam",  "Mohammad Raihan Tariq", "Dr Naralle Warren"]

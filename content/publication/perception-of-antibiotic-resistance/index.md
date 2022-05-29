@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
-title: " Public Perception on the Spread of Antibiotic Resistance in Bangladesh."
-authors: [Syeda Tasneem Towhid, Ph.D, Md. Jubayer Hossain, Sumona
-Akter, Md. Atik Shariar Sammo, Sharif Hossain, Sumaiya Akter Mukta, Morsheda Munia, Mohammad Nahian]
+title: "Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh"
+authors: [Syeda Tasneem Towhid, Ph.D, Md. Jubayer Hossain, Sumona,Md. Atik Shariar Sammo
+Akter]
 date: 2021-04-16T06:38:12+06:00
 doi: ""
 
@@ -13,7 +13,7 @@ publishDate: 2021-04-16T06:38:12+06:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Working paper*"
@@ -22,7 +22,7 @@ publication_short: "*Working paper*"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "The aim of this study is to assess perception of the students on the impending doom called antibiotic resistance epidemic around the world through a questionnaire-based random survey on 472 students from final year of school (10th grade) to post-graduate level.  "
+summary: ""
 
 tags: ["antibiotics", "antimicrobial resistance", "knowledge of antibiotics"]
 categories: []
@@ -67,24 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-## Introduction
-
-Antibiotics either are cytotoxic or cytostatic to the micro-organisms, allowing the body’s natural defences, such as the immune system, to eliminate them. They often act by inhibiting the synthesis of a bacterial cell, synthesis of proteins, deoxyribonucleic acid (DNA), ribonucleic acid (RNA), by a membrane disorganizing agent, or other specific actions. Antibiotics may also enter the cell wall of the bacteria by binding to them, using the energy-dependent transport mechanisms in ribosomal sites, which subsequently lead to the inhibition of the protein synthesis.
-
-## Objectives
-
-- Improve awareness and understanding of antimicrobial resistance through effective communication, education and training.
-- Strengthen the knowledge and evidence base through surveillance and research.
-- Reduce the incidence of infection through effective sanitation, hygiene and infection prevention measures.
-- Optimize the use of antimicrobial medicines in human and animal health.
-- Develop the economic case for sustainable investment that takes account of the needs of all countries and to increase investment in new medicines, diagnostic tools, vaccines and other interventions.
-
-## Survey
-
- <iframe
-       src="https://forms.gle/rhxha5Xsxv8WXg8M7"
-       width="100%"
-       height="1000px"
-       style="border:none;">
- </iframe>
