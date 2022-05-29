@@ -16,8 +16,8 @@ publishDate: 2021-04-16T06:38:12+06:00
 publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Working paper*"
-publication_short: "*Working paper*"
+publication: ""
+publication_short: ""
 
 abstract: ""
 
@@ -36,12 +36,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: http://www.ejbio.org/index.php/ejbio/article/view/341
 url_code: https://github.com/hdrobd/Antibiotics-Registance
 url_dataset:
 url_poster:
-url_project: https://www.researchgate.net/project/Antibiotic-Resistance-50
-url_slides:
+url_project: https://chiralbd.org/project/antibiotics-resistance/
+url_slides: 
 url_source:
 url_video:
 

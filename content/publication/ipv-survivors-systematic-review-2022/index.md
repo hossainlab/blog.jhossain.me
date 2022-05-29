@@ -7,7 +7,7 @@ publication_types: ["3"]
 abstract: "The objectives are to determine- a) the types of interventions that are available to influence the changes in the mental health conditions among the IPV survivors in low- and
 middle-income countries (LMICs), b) the types of present interventions that influence changes in knowledge, attitude and practice of the healthcare workers to provide mental health care to the IPV survivors; and c) the feasibility of implementing those interventions in resource-poor settings."
 featured: true
-publication: "Working Paper"
+publication: "Under Review"
 url_pdf: "#"
 links:
 - name: Project

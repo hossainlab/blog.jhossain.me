@@ -88,12 +88,11 @@ user_groups:
 - Researchers
 - Visitors
 ---
+Currently, I am working as an intern at the Health System and Population Studies Division, [icddr,b](https://www.icddrb.org/). I am a Graduate student at the Department of Microbiology at [Jagannath University, Dhaka](https://jnu.ac.bd/dept/portal/web/microbiology). I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research.
 
-I am a Graduate student at the Department of Microbiology at [Jagannath University, Dhaka](https://jnu.ac.bd/dept/portal/web/microbiology). I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research.
+I am also the founder of [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.netlify.app/), a non-profit organization dedicated to health research to improve lives in Bangladesh.
 
-I am the founder of [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.netlify.app/), a non-profit organization dedicated to health research to improve lives in Bangladesh.
-
-At CHIRAL Bangladesh, I lead two programs: [Scientific Computing for Biologists](https://chiralbd.netlify.app/teaching/programs/) and the other one is [Health Data Analytics](https://chiralbd.netlify.app/teaching/programs/). In addition, I make [content](https://www.youtube.com/channel/UCbkJ5pm65Fkcs7MK4YshLsQ) on Data Analysis with Python and R.
+At CHIRAL Bangladesh, I lead four programs: [Health Research ToolBox - A Step by Step Guide for Beginners](https://hrt.chiralbd.org/), [The Undergraduate Research Training Program (URTP)](https://urtp.chiralbd.org/), [Scientific Computing for Biologists](https://chiralbd.netlify.app/teaching/programs/), and the other one is [Health Data Analytics](https://chiralbd.netlify.app/teaching/programs/). In addition, I make [content](https://www.youtube.com/channel/UCbkJ5pm65Fkcs7MK4YshLsQ) on Data Analysis with Python and R.
 
 Python is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.
 
