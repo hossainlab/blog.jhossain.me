@@ -21,6 +21,13 @@
   url = "#teaching"  # Widget Page folder name.
   weight = 3  # Position of the link in the navigation bar.
 
+
+[[main]]
+  name = "Affiliations"  # Title of the link.
+  url = "#experience"  # Widget Page folder name.
+  weight = 4  # Position of the link in the navigation bar.
+
+
 #[[main]]
 #name = "Projects"
 #url = "#projects"

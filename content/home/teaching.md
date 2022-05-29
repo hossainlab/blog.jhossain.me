@@ -18,6 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
+[[experience]]
+  title = "Lead Organizer & Instructor"
+  company = "Undergraduate Research Training Program (URTP)"
+  company_url = "https://urtp.chiralbd.org/"
+  location = "Dhaka, Bangladesh"
+  date_start = "2022-06-01"
+  date_end = ""
+  description = """
+The Undergraduate Research Training Program (URTP) aims to develop better-prepared undergraduate researchers.
+"""
+
+
+
+
 [[experience]]
   title = "Lead Organizer & Instructor"
   company = "Health Research ToolBox: A Step by Step Guide for Beginners"
@@ -27,16 +42,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 This course will give students a foundation in research principles and practice, mainly applied to public health. In addition, we will have weekly lectures covering various topics, including research methodology, data collection methods, statistics, R programming, data visualization(human perception, color theory, principles of visual design), etc.
-
-  Modules:
-  * [HRT101: Introduction to Health Research]()
-  * [HRT101: Introduction to Health Research]()
-  * [HRT104: Tools for Data Collection]()
-  * [HRT105: Introduction to R for Health Data Analysis]()
-  * [HRT106: Academic Writing with LaTeX]()
-  * [HRT107: Tools and Softwares for Research]()
-  * [HRT108: Research Project]()
-  """
+"""
 
 [[experience]]
   title = "Lead Organizer & Instructor"
@@ -59,17 +65,7 @@ Python for Life Sciences(PY4LS) is an introductory course on Python with applica
   description = """
 This course will give students a foundation in genomic research principles and practice, mainly applied to public health. In addition, we will have weekly lectures covering various topics, including research methodology, data collection methods, statistics, R programming, data visualization(human perception, color theory, principles of visual design), etc.
 
-  Modules:
-  * [IGDC101: Introduction to Genomic Data Science]()
-  * [IGDC102: Introduction to R]()
-  * [IGDC102: Introduction to R]()
-  * [IGDC105: Introduction to Bioconductor for Genomic Data Science]()
-  * [IGDC106: Introduction to RNA-Seq Analysis with Bioconductor]()
-  * [IGDC107: Statistics for Genomic Data Science]()
-  * [IGDC108: Reporting with R Markdwon]()
-  * [IGDC109: Version Control with Git & RStudio]()
-  * [IGDC110: Final Project]()
-  """
+"""
   
 
 [[experience]]

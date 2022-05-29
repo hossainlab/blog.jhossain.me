@@ -17,6 +17,18 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Research Intern"
+  company = "International Centre for Diarrhoeal Disease Research, Bangladesh"
+  company_url = "https://www.icddrb.org/"
+  location = "Dhaka, Bangladesh"
+  date_start = "2022-02-16"
+  date_end = ""
+  description = """
+  International Centre for Diarrheal Disease Research, Bangladesh (ICCDR, B) is   a pioneer non-profit healthcare research center that deals with several precious humanitarian responses, including fundamental research on diseases in the developing world. Along with professionals, ICDDR, B offers students from disciplined life sciences backgrounds the opportunity to learn work and acquire experiences through several period internship programs and help continue heir research career and improve research skills. And Scientists and research experts have always been instructing students to become acquainted with these proficiencies.
+"""
+
 [[experience]]
   title = "Founder"
   company = "Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)"
